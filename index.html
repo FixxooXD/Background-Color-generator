@@ -64,6 +64,7 @@ function colorChanger(){
     for (let index = 0; index < colorCodeLength; index++) {
         const randomNum = Math.floor(Math.random() * chars.length);
         console.log(randomNum)
+        // deleting numbers except the  number  itself from the  chars 
         console.log(chars.substring(randomNum, randomNum + 1))
         colorCode += chars.substring(randomNum, randomNum + 1);
     }
